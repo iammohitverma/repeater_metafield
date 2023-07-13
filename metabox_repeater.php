@@ -104,6 +104,11 @@ function cxc_single_repeatable_meta_box_callback( $post ) {
 							<td>
 								<input class="upload_image_button" type="button" value="Upload Image" />
 							</td>
+							<tr>
+								<td>
+									<img src="" class="preview_image" alt="preview image">
+								</td>
+							</tr>
 						</tr>
 						<tr>
 							<td><input type="hidden" class="hidden_img_field" name="hide_custom_repeater_item[rand_no][image_field]"/></td>
